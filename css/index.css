@@ -1,0 +1,352 @@
+/* Start Navbar Style */
+
+#nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+#nav .container {
+    padding: 15px 0;
+}
+
+#nav .container div {
+    width: 20%;
+}
+
+#nav .container ul {
+    width: 75%;
+}
+
+#nav .container ul li {
+    padding: 10px 20px;
+    margin-top: 6px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+#nav .container ul li:first-of-type {
+    color: #b5e0e0;
+}
+
+#nav .container ul li:hover {
+    color: #b5e0e0;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: rgba(0 0 0 / 35%) url('../images/photo-1470229538611-16ba8c7ffbd7.jpg') center center;
+    background-blend-mode: overlay;
+    height: 100vh;
+    color: #fff;
+}
+
+#banner .container {
+    padding-top: 90px;
+}
+
+#banner .container span {
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 90px;
+}
+
+#banner .container h1 {
+    margin: 5px 0 18px;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+#banner .container p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+#banner .container button {
+    padding: 22px 35px;
+    background-color: #fff;
+}
+
+#banner .container button:hover {
+    background-color: rgba(255 255 255 / 70%);
+}
+
+/* End Banner Style */
+
+/* Start Services Style */
+
+#services .container div {
+    width: 22%;
+}
+
+#services .container div i {
+    background-color: var(--mainColor);
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+}
+
+#services .container div h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 22px 0 11px;
+}
+
+#services .container div p {
+    font-size: 15px;
+    color: #888;
+}
+
+/* End Services Style */
+
+/* Start Our Goal Style */
+
+#our-goal {
+    background-color: var(--mainBackgroundColor);
+}
+
+#our-goal .container div:first-of-type {
+    width: 50%;
+}
+
+#our-goal .container div:nth-of-type(2) {
+    width: 45%;
+}
+
+#our-goal .container div p {
+    color: #686868;
+    margin-top: 18px;
+}
+
+#our-goal .container div dl dt {
+    margin: 30px 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#our-goal .container div dl dd {
+    color: #686868;
+    margin-top: 12px;
+}
+
+/* End Our Goal Style */
+
+/* Start About Section */
+
+#about {
+    background: rgba(0 0 0 / 35%) url('../images/photo-1491339526372-c7112c8e37f3.jpg') 50% 30%;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: #fff;
+}
+
+#about .container p {
+    color: rgba(255,255,255, .92);
+    margin: 17px 0 65px;
+}
+
+#about .container > div {
+    width: 32%;
+}
+
+#about .container div i {
+    width: 10%;
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+#about .container div div {
+    width: 85%;
+}
+
+#about .container div div h4 {
+    margin-bottom: 7px;
+}
+
+/* End About Section */
+
+/* Start Pieces Style */
+
+#pieces .container p {
+    margin: 17px 0 68px;
+}
+
+#pieces .container img {
+    width: 32%;
+}
+
+#pieces .container button {
+    margin-top: 54px;
+    color: #fff;
+}
+
+#pieces .container button i {
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+#pieces .container button:hover {
+    background-color: var(--secondaryColor);
+}
+
+#pieces .container button:hover i {
+    margin-left: 10px;
+}
+
+/* End Pieces Style */
+
+/* Start News Style */
+
+#news {
+    background-color: var(--mainBackgroundColor);
+}
+
+#news .container > p {
+    margin: 17px 0 55px;
+    color: #686868;
+}
+
+#news .container div:first-of-type,
+#news .container div:nth-of-type(2),
+#news .container div:nth-of-type(3) {
+    width: 32%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#news .container div p {
+    color: #686868;
+    margin-bottom: 15px;
+}
+
+#news .container div span {
+    display: inline-block;
+    color: #aaa;
+    font-size: 13px;
+    margin: 13px 0 7px;
+}
+
+#news .container div a {
+    color: black;
+}
+
+#news .container div a:hover {
+    color: var(--mainColor);
+}
+
+#news .container div a i {
+    margin-left: 5px;
+    transition: all .2s ease;
+}
+
+#news .container div a:hover i {
+    margin-left: 10px;
+}
+
+#news .container button {
+    margin-top: 55px;
+    color: #fff;
+}
+
+#news .container button i {
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+#news .container button:hover {
+    background-color: var(--secondaryColor);
+}
+
+#news .container button:hover i {
+    margin-left: 10px;
+}
+
+/* End News Style */
+
+/* Start Contact Style */
+
+#contact {
+    background: rgba(0 0 0 / 20%) url('../images/4bdd2a58.jpg');
+    background-blend-mode: overlay;
+    color: #fff;
+}
+
+#contact .container div {
+    width: 22%;
+    color: #A9A9A9;
+}
+
+#contact .container div h4 {
+    color: #fff;
+}
+
+#contact .container div p {
+    margin: 25px 0 20px;
+    font-weight: 400;
+}
+
+#contact .container div ul {
+    margin-top: 25px;
+}
+
+#contact .container div li {
+    margin-bottom: 15px;
+    font-weight: 400;
+    transition: all .5s ease;
+}
+
+#contact .container div li i {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.34);
+    margin-right: 7px;
+}
+
+#contact .container div:nth-of-type(4) li:nth-of-type(2):hover,
+#contact .container div:nth-of-type(4) li:nth-of-type(3):hover,
+#contact .container div:nth-of-type(4) li:last-of-type:hover {
+    color: #E0E0E0;
+}
+
+/* End Contact Style */
+
+/* Start Footer Style */
+
+#footer {
+    background-color: var(--secondaryBackgroundColor);
+    color: #777;
+}
+
+#footer .container div {
+    width: 347px;
+    margin: auto;
+}
+
+#footer .container p {
+    margin: 25px 0 15px;
+}
+
+#footer .container ul li {
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+    color: #fff;
+    transition: all .5s ease;
+    border: 1px solid var(--mainColor);
+    margin-right: 5px;
+}
+
+#footer .container ul li:first-of-type {
+    padding: 8px 12px;
+}
+
+#footer .container ul li:hover {
+    background-color: var(--secondaryBackgroundColor);
+    border-color: var(--mainColor);
+}
+
+/* End Footer Style */

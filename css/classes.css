@@ -1,0 +1,64 @@
+/* Start Main Classes Style */
+
+.p-5 {
+    padding: 50px 0;
+}
+
+.ml-5 {
+    margin-left: 5%;
+}
+
+.mr-5 {
+    margin-right: 5%;
+}
+
+.mr-4 {
+    margin-right: 4%;
+}
+
+.mr-2 {
+    margin-right: 2%;
+}
+
+.mr-1 {
+    margin-right: 1%;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/* End Main Classes Style */
